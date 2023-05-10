@@ -1,0 +1,9 @@
+{
+    "/api/*": {
+      "target": "https://mst-full-stack-dev-test.herokuapp.com",
+      "secure": true,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  
