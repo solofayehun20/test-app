@@ -1,0 +1,71 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>Amature</th>
+        <th>Eastern</th>
+        <th>Handicap</th>
+        <th>CalculatedRankInteger</th>
+        <th>TournamentID</th>
+        <th>Status</th>
+        <th>Sex</th>
+        <th>Handicap</th>
+        <th>MSTID</th>
+        <th>Nationality</th>
+        <th>TVName</th>
+        <th>MatchID</th>
+        <th>InStrokes</th>
+        <th>InSTP</th>
+        <th>Match</th>
+        <th>OutSTP</th>
+        <th>Today</th>
+        <th>Score</th>
+        <th>TeeStart</th>
+        <th>Position</th>
+        <th>Course</th>
+        <th>Round</th>
+        <th>OrderInMatch</th>
+        <th>SortPriority</th>
+        <th>UniquePosition</th>
+        <th>LastUpdated</th>
+        <th>LeaderboardID</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr *ngFor="let user of users">
+          <td>{{ user?.First }}</td>
+          <td>{{ user?.Last }}</td>
+          <td>{{ user?.Amature }}</td>
+          <td>{{ user?.Eastern }}</td>
+          <td>{{ user?.Handicap }}</td>
+          <td>{{ user?.CalculatedRankInteger }}</td>
+          <td>{{ user?.TournamentID }}</td>
+          <td>{{ user?.Status }}</td>
+          <td>{{ user?.Sex }}</td>
+          <td>{{ user?.Handicap }}</td>
+          <td>{{ user?.MSTID }}</td>
+          <td>{{ user?.Nationality }}</td>
+          <td>{{ user?.TVName }}</td>
+          <td>{{ user?.MatchID }}</td>
+          <td>{{ user?.InStrokes }}</td>
+          <td>{{ user?.InSTP }}</td>
+          <td>{{ user?.Match }}</td>
+          <td>{{ user?.OutSTP }}</td>
+          <td>{{ user?.Today }}</td>
+          <td>{{ user?.Score }}</td>
+          <td>{{ user?.TeeStart }}</td>
+          <td>{{ user?.Position }}</td>
+          <td>{{ user?.Course }}</td>
+          <td>{{ user?.Round }}</td>
+          <td>{{ user?.OrderInMatch }}</td>
+          <td>{{ user?.SortPriority }}</td>
+          <td>{{ user?.UniquePosition }}</td>
+          <td>{{ user?.LastUpdated }}</td>
+          <td>{{ user?.LeaderboardID }}</td>
+        </tr>
+     
+    </tbody>
+  </table>
+  
